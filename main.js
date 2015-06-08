@@ -1,7 +1,16 @@
 alert("I'm working with JavaScript");
 
-function mad_libs() {
-	document.write("There were thirteen dragons but only twelve princesses that night.  How would they deal with the imbalance?  One of the dragons suggested a game of tug-o-war but another pointed out that with such tiny arms it would be hard for any but the princess to grasp the rope.  Twenty minutes of arguments and fire breathing passed before finally a wiry woman in the back of the line suggested that they play mad libs in order to fairly eliminate one of the dragons.");
-}
+var noun1 = prompt("Please give me a noun.");
+//document.write(noun1);
+//alert("Thank you.");
+var adjective1 = prompt("Please give me an adjective.");
+//document.write(adjective1);
 
-mad_libs();
+var verb1 = prompt("Please give me a verb.");
+//document.write(verb1);
+
+alert("Thank you.  Ready for your story?.");
+
+document.write ( "Once there was a " + noun1 + " who loved to " + verb1 + ". When she was feeling " + adjective1 + " She would laugh through her nose.");
+
+
